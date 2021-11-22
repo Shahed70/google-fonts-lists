@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+body{
+  position: relative;
+}
+.backBtn{
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
